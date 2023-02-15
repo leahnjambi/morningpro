@@ -1,0 +1,76 @@
+body{
+    margin: unset;
+}
+.banner-section{
+    background-size: cover;
+    background-image: url("../images/img 15.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.banner-container h1{
+    color: white;
+    font-size: 40px;
+}
+.banner-container p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+.btn-signup{
+    width: 200px;
+    height: 30px;
+    border: unset;
+    border-radius: 100px;
+    color: #265d8d;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn-signin{
+    width: 200px;
+    height: 30px;
+    border: unset;
+    border-radius: 100px;
+    background-color: orange;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.about-section ,.about-container{
+    height: 100vh;
+}
+.top-about-container{
+    background-color: orange;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.top-about-container h2 h4{
+    color: white;
+}
+.top-about-container p{
+    color: white;
+    text-align: center;
+}
+.top-about-button{
+    width: 200px;
+    height: 30px;
+    border: unset;
+    border-radius: 100px;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
